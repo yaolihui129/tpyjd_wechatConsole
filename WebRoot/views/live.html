@@ -1,0 +1,32 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>直播间</title>
+    <!-- SyntaxHighlighter CSS -->
+    <link href="//cdn.bootcss.com/SyntaxHighlighter/3.0.83/styles/shCore.min.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/SyntaxHighlighter/3.0.83/styles/shThemeDefault.min.css" rel="stylesheet">
+    <!-- nePlayer CSS -->
+    <link href="//nos.netease.com/vod163/nep.min.css" rel="stylesheet">
+    <style type="text/css">
+	body{
+		background-color:#000;}
+        .g-container-video {
+            margin: 50px auto;
+            max-width: 960px;
+        }
+    </style>
+</head>
+<body>
+    <div class="g-container-video">
+        <!-- html5 video tag -->
+        <video id="my-video" class="video-js vjs-big-play-centered" x-webkit-airplay="allow" webkit-playsinline controls poster="//nos.netease.com/vod163/poster.png" preload="auto" width="960" height="540" data-setup="{}">
+            <!-- <source src="http://flvdl065fbc77.live.126.net/live/5474b968bbf1429bb2270c4760b7c987.flv?netease=flvdl065fbc77.live.126.net" type="video/x-flv"> -->
+            <source src="http://pullhlsdl065fbc77.live.126.net/live/5474b968bbf1429bb2270c4760b7c987/playlist.m3u8" type="application/x-mpegURL">
+        </video>
+    </div>
+   
+    <!-- nePlayer Js -->
+    <script src="//nos.netease.com/vod163/nep.min.js"></script>
+</body>
+</html>
+

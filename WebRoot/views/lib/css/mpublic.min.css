@@ -1,0 +1,48 @@
+.div-button-blue{
+	margin-left:5px; cursor:pointer; text-align: center;font-weight: normal;vertical-align: middle;display: inline-block;vertical-align: top;
+	padding: 0 0.5em;font-size: 13px; min-height: 20px;border: 1px solid #d4d4d4; background-color: #e6e6e6;margin-top:1px;  color:#3bb4f2 ;min-width: 40px;
+}
+.div-button-blue:hover,
+.div-button-blue:focus {
+  background-color: #d4d4d4;
+  color:black;
+}
+.div-button-blue:focus,
+.div-button-blue:active:focus {
+  outline: thin dotted;
+  outline: 1px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+  color:black;
+}
+.div-button-red{
+	margin-left:5px;cursor:pointer; text-align: center;font-weight: normal;vertical-align: middle;display: inline-block;vertical-align: top;
+	padding: 0 0.5em;font-size: 13px;margin-top:1px;  min-height: 20px;border: 1px solid #d4d4d4; background-color: #e6e6e6; color:#FF6347 ;min-width: 40px;
+}
+.div-button-red:hover,
+.div-button-red:focus {
+  background-color: #d4d4d4;
+  color:black;
+}
+.div-button-red:focus,
+.div-button-red:active:focus {
+  outline: thin dotted;
+  outline: 1px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+  color:black;
+}
+.div-button-defalut{
+	margin-left:5px;cursor:pointer;margin-top:1px;  text-align: center;font-weight: normal;vertical-align: middle;display: inline-block;vertical-align: top;
+	padding: 0 0.5em;font-size: 13px; min-height: 20px;border: 1px solid #d4d4d4; background-color: #e6e6e6; color:#ABABAB ;min-width: 40px;
+}
+.div-button-defalut:hover,
+.div-button-defalut:focus {
+  background-color: #d4d4d4;
+  color:black;
+}
+.div-button-defalut:focus,
+.div-button-defalut:active:focus {
+  outline: thin dotted;
+  outline: 1px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+  color:black;
+}

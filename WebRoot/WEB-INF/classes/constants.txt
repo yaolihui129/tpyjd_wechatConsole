@@ -1,0 +1,265 @@
+#
+#项目属性
+project_property = 0001
+#
+#签证类型
+visa_type=00010001
+#居住要求
+live_requirement=00010002
+#资金要求
+asset=00010003
+#管理经验
+manage=00010004
+#学历要求
+qualifications=00010005
+#语言要求
+language=00010006
+#年龄要求
+age=00010007
+#项目状态
+project_status=0007
+		#项目状态_暂停
+		project_status_zt=00070003
+		#项目状态_未开放
+		project_status_wkf=00070002
+		#项目状态_上线
+		project_status_sx=00070001
+#项目类型
+project_type=0008
+#扩展推荐
+project_expands=0018
+#项目级别
+	#一级
+	project_level_one=00260001
+	#二级
+	project_level_two=00260002
+
+#管家评价
+item=0004
+#管家评价项
+stewarditem=00040001
+#服务态度
+service_attitude=000400010001
+#专业知识
+specialized_knowledge=000400010002
+#反馈效率
+feedback_efficiency=000400010003
+#评价选项
+stewarditemitem=00040002
+#很满意
+satisfied=000400020001
+#一般
+general=000400020002
+#不满意
+dissatisfied=000400020003
+#软删除评价标示    (1:表示初始值，未删除 。0:表示已被软删除)
+#如果将 1替换为 0 可以查出所有评价，包含已被软删除的数据
+delete_sign=1
+
+
+#洲
+country=0003
+	#中国
+	country_china=000300020001
+	
+
+#移民目的
+hotspot=00130001
+
+#客户属性
+cust = 0005
+	#客户状态
+	cust_status = 00050002
+	#无效客户
+	cust_status_invalid = 000500020002
+	#已跟进
+	#cust_status_intention = 000500020003
+	cust_status_followed = 000500020003
+	#待跟进
+	cust_status_tofollow = 000500020004
+	
+	
+	#客户来源
+	cust_source = 00050001
+	
+	#客户类型
+	cust_type = 00050003
+	
+	#签约客户
+	cust_type_signed = 000500030003
+	
+#沟通方式
+follow_mode = 0010
+
+#省份信息
+province = 0006
+
+#移民目的 
+immigrate_intention = 00130001
+
+#支付方式
+paycode = 0011
+
+#栏目类型
+section_type = 0017
+	#生活体验
+	section_type_shty = 00170001
+
+##微信绑定
+#未绑定
+bind_status_w = 0
+#已绑定
+bind_status_y = 1
+#已解绑
+bind_status_j = 2
+
+#发布状态
+publish_status = 0014
+	#未发布
+	publish_status_wfb = 00140001
+	#已发布
+	publish_status_yfb = 00140002
+	#已下线
+	publish_status_yxx = 00140003
+
+#媒体类型
+media_type=0020
+#是否发布
+indexShow=0019
+
+#会员状态
+member_status = 00210001
+	#启用
+	member_status_enabled = 002100010001
+	#禁用
+	member_status_disabled = 002100010002
+#问卷版本状态
+question_version_status = 00230002
+	#已发布
+	question_version_status_yfb = 002300020001
+	#未发布
+	question_version_status_wfb = 002300020002
+	#已下线
+	question_version_status_yxx = 002300020003
+	
+#作答模式
+answer_mode = 00230001
+	#单选
+	answer_mode_single = 002300010001
+	#多选
+	answer_mode_much = 002300010002
+#专题发布个数
+release_num=5
+#推送位置
+	push_location = 0024
+	
+
+#合作方式
+proxy_level=00250001
+	#合伙人（一级）
+	proxy_level_one=002500010001
+	#代理人（二级）
+	proxy_level_two=002500010002
+	#其它
+	proxy_level_other=002500010003
+	
+	#代理状态
+	proxy_status=00250003
+	#禁用
+	proxy_status_disabled=002500030002
+	#启用
+	proxy_status_enabled=002500030001
+	
+	#审核状态 
+	audit_status=00250002
+	#新申请
+	audit_status_new=002500020001
+	#未通过
+	audit_status_refused=002500020002
+	#已通过
+	audit_status_passed=002500020003
+	
+	
+#评估作答模式
+	#单选
+	estimate_answer_danx=002300010001
+	#多选
+	estimate_answer_duox=002300010002
+	#文本
+	estimate_answer_wenb=002300010003
+
+#匹配阈值
+estimate_weight_value=00230003
+
+#移民目的
+hotspots=00130001
+
+#移民预算
+immigration_budget=00010008
+#直播状态
+live_status=0029
+	#已结束
+	live_status_ended = 00290004
+	live_status_ended_name = 已结束
+	#直播中
+	live_status_living = 00290003
+	live_status_living_name = 直播中
+
+#直播类型
+live_type=0028
+
+#直播
+	#参与方式
+	#听课码
+	listening_code = 002700010003
+	#公开课
+	public_class = 002700010001
+	#报名
+	apply = 002700010002
+	
+	#取消参与资格
+	cancel_participation = 002700020003
+	
+#移民官网
+	#诚聘英才-学历要求
+	zp_education = 003200010002
+	#诚聘英才-工作经验
+	zp_experience = 003200010001
+	#诚聘英才-所属公司
+	zp_company = 003200010003
+	
+	#友情链接类型
+		#友情链接
+		link_type_friendly=0032000200010001
+		#分公司
+		link_type_branch=0032000200010002
+	
+	#打开方式
+	open_mode=003200020002
+		#新窗口
+		0032000200020002
+		#本页面
+		0032000200020001
+		
+	#导航类型
+	menu_type=003200020003
+		#菜单栏
+		menu_type_cdl=0032000200030003
+		#移民国家
+		menu_type_gj=0032000200030001
+		#移民项目
+		menu_type_xm=0032000200030002
+	
+	#导航菜单状态
+		#未发布
+		menu_status_wfb=0032000200040001
+		#已发布
+		menu_status_yfb=0032000200040002
+		
+		
+		
+#活动类型
+activityType=0031
+
+#团队类型
+team_type=0033
